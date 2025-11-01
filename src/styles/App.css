@@ -1,0 +1,22 @@
+body { font-family: "Noto Sans", sans-serif; background:#f2f6f9; margin:0; padding:0; }
+.app { max-width:900px; margin:20px auto; padding:20px; background:white; border-radius:8px; box-shadow:0 4px 20px rgba(0,0,0,0.06); }
+h1 { font-size:22px; margin:0 0 6px 0; color:#1b3b5a; }
+.sub { color:#556; margin-top:0; margin-bottom:12px; }
+.district-selector { display:flex; gap:10px; align-items:center; margin-bottom:12px; }
+.label { font-weight:bold; }
+.district-selector select { padding:10px; border-radius:6px; border:1px solid #ddd; min-width:240px; }
+.locate-btn { padding:10px 12px; border-radius:6px; background:#18a999; color:white; border:none; cursor:pointer; }
+.controls { margin:12px 0; display:flex; gap:8px; align-items:center; }
+.controls input { padding:8px; border-radius:6px; border:1px solid #ddd; width:140px; }
+.controls button { padding:8px 12px; border-radius:6px; background:#ff9800; border:none; cursor:pointer; color:white; }
+.error { color:#b00020; background:#ffecec; padding:8px; border-radius:6px; margin:8px 0; }
+.results { margin-top:16px; }
+.kpi-row { display:flex; gap:12px; flex-wrap:wrap; }
+.kpi-card { background:#fff; border-radius:10px; padding:12px; box-shadow:0 2px 8px rgba(0,0,0,0.06); min-width:160px; text-align:center; }
+.kpi-title { font-size:14px; color:#556; margin-bottom:6px; }
+.kpi-value { font-size:20px; font-weight:700; color:#1b3b5a; }
+.kpi-delta { margin-top:6px; font-weight:600; }
+.kpi-delta.up { color:green; }
+.kpi-delta.down { color:red; }
+.note { margin-top:12px; color:#666; font-size:13px; }
+.small-note { color:#777; font-size:13px; }
